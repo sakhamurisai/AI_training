@@ -44,7 +44,7 @@ config.py
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
+
 
 # IDE
 .vscode/
@@ -63,3 +63,6 @@ Thumbs.db
 logs/
 *.log
 tensorboard/" > .gitignore
+
+# images
+.jpg
