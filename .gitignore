@@ -1,0 +1,65 @@
+# Create a comprehensive .gitignore for ML projects
+echo "# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+pip-log.txt
+
+# Data files - NEVER commit large data files!
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.parquet
+*.feather
+data/
+raw_data/
+processed_data/
+
+# Models and weights - usually too large for Git
+*.model
+*.pth
+*.pt
+*.h5
+*.joblib
+models/
+weights/
+checkpoints/
+
+# Environment variables
+.env
+.secret
+config.py
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+#csv
+*.csv(Downloaded)
+
+# Logs
+logs/
+*.log
+tensorboard/" > .gitignore
